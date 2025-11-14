@@ -1,9 +1,4 @@
-# Progressive Frequency-Aware Network for Laparoscopic Image Desmoking (PRCV2023)
-[Jiale Zhang](https://github.com/jlzcode/), Wenfeng Huang, Xiangyun Liao, Qiong Wang
-
-[Paper Available](https://arxiv.org/abs/2312.12023)
-
-
+# Progressive Frequency-Aware Network for Laparoscopic Image Desmoking 
 
 ## Representative Results
 ![representive_results](2.png)
@@ -21,7 +16,7 @@
 
 - Clone this repo:
 ```bash
-git clone https://github.com/jlzcode/PFAN
+git clone https://github.com/Dhinesh-Fedor/DIP_PROJECT.git
 cd PFAN
 ```
 
@@ -54,20 +49,7 @@ python train.py --dataroot ./datasets/composite --name pfan
 python test.py --dataroot ./datasets/composite --name pfan
 ```
 - The test results will be saved to a html file here: `./results/pfan/test_latest/index.html`. You can find more scripts at `scripts` directory.
-
-
-## Citation
-If you find this work useful for you, please cite
-```
-@inproceedings{zhang2023progressive,
-  title={Progressive Frequency-Aware Network for Laparoscopic Image Desmoking},
-  author={Zhang, Jiale and Huang, Wenfeng and Liao, Xiangyun and Wang, Qiong},
-  booktitle={Chinese Conference on Pattern Recognition and Computer Vision (PRCV)},
-  pages={479--492},
-  year={2023},
-  organization={Springer}
-}
-```
+  
 
 ## Acknowledgments
 Our code is inspired by [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
