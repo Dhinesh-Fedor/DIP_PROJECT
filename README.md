@@ -6,7 +6,7 @@ Mohammed Ashlab N | Dhinesh Kumar M | Srishreyan S
 ![representive_results](2.png)
 
 ## Overall Architecture
-![architecture]<img width="580" height="278" alt="image" src="https://github.com/user-attachments/assets/48c40e67-2711-427c-a530-8e7a8abeaeac" />
+<img width="580" height="278" alt="image" src="https://github.com/user-attachments/assets/48c40e67-2711-427c-a530-8e7a8abeaeac" />
 
 
 
