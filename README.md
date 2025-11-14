@@ -1,10 +1,13 @@
-# Progressive Frequency-Aware Network for Laparoscopic Image Desmoking 
+# A Lightweight Hybrid CNN-Transformer Model for Smoke Removal in Laparoscopic	Surgery Images 
+
+Mohammed Ashlab N | Dhinesh Kumar M | Srishreyan S 
 
 ## Representative Results
 ![representive_results](2.png)
 
 ## Overall Architecture
-![architecture](/1.png)
+![architecture](<img width="580" height="278" alt="image" src="https://github.com/user-attachments/assets/48c40e67-2711-427c-a530-8e7a8abeaeac" />)
+
 
 ## Prerequisites
 - Linux or macOS
