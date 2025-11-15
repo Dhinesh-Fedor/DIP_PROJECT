@@ -3,11 +3,8 @@ Mohammed Ashlab N - 23MIA1088 | Dhinesh Kumar M - 23MIA1102 | Srishreyan S - 23M
 
 # Abstract
 
-Laparoscopic surgeries are highly dependent on visual clarity, but the generation of surgical smoke during procedures such as cauterization and ablation often obscures the surgeon’s view and degrades image quality [14]. To overcome this issue, we propose a Progressive Frequency-Aware Network (PFAN)—a lightweight hybrid deep learning architecture that integrates Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs) within a Generative Adversarial Network (GAN) framework [6], [5]. The proposed model progressively extracts and fuses high-frequency local and low-frequency global features in the frequency domain to restore clear, artifact-free laparoscopic images. PFAN introduces two novel components: the Multi-scale Bottleneck-Inverting (MBI) Block for multi-scale high-frequency extraction and the Locally-Enhanced Axial Attention Transformer (LAT) Block for global low-frequency feature representation. The model is trained using synthetic smoke images generated via the Blender engine to simulate realistic laparoscopic smoke [3]. Experimental evaluation on the Cholec80 dataset [28] demonstrates that PFAN achieves superior quantitative results in PSNR, SSIM, and CIEDE2000 metrics compared to state-of-the-art approaches such as Pix2Pix [13], CycleGAN [19], and DCP [7], while maintaining only 629K parameters, enabling real-time deployment on resource-constrained surgical systems.
+Laparoscopic surgeries are highly dependent on visual clarity, but the generation of surgical smoke during procedures such as cauterization and ablation often obscures the surgeon’s view and degrades image quality. To overcome this issue, we propose a Progressive Frequency-Aware Network (PFAN)—a lightweight hybrid deep learning architecture that integrates Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs) within a Generative Adversarial Network (GAN) framework. The proposed model progressively extracts and fuses high-frequency local and low-frequency global features in the frequency domain to restore clear, artifact-free laparoscopic images. PFAN introduces two novel components: the Multi-scale Bottleneck-Inverting (MBI) Block for multi-scale high-frequency extraction and the Locally-Enhanced Axial Attention Transformer (LAT) Block for global low-frequency feature representation. The model is trained using synthetic smoke images generated via the Blender engine to simulate realistic laparoscopic smoke. Experimental evaluation on the Cholec80 dataset demonstrates that PFAN achieves superior quantitative results in PSNR, SSIM, and CIEDE2000 metrics compared to state-of-the-art approaches such as Pix2Pix, CycleGAN, and DCP, while maintaining only 629K parameters, enabling real-time deployment on resource-constrained surgical systems.
 
-
-## Representative Results
-![representive_results](2.png)
 
 ## Overall Architecture
 <img width="580" height="278" alt="image" src="https://github.com/user-attachments/assets/48c40e67-2711-427c-a530-8e7a8abeaeac" />
@@ -25,7 +22,7 @@ Laparoscopic surgeries are highly dependent on visual clarity, but the generatio
 - Clone this repo:
 ```bash
 git clone https://github.com/Dhinesh-Fedor/DIP_PROJECT.git
-cd PFAN
+cd DIP_PROJECT
 ```
 
 - Install [PyTorch](http://pytorch.org) and 0.4+ and other dependencies (e.g., torchvision, [visdom](https://github.com/facebookresearch/visdom) and [dominate](https://github.com/Knio/dominate)).
@@ -57,7 +54,10 @@ python train.py --dataroot ./datasets/composite --name pfan
 python test.py --dataroot ./datasets/composite --name pfan
 ```
 - The test results will be saved to a html file here: `./results/pfan/test_latest/index.html`. You can find more scripts at `scripts` directory.
-  
+
+
+## Representative Results
+![representive_results](2.png)
 
 ## Acknowledgments
 Our code is inspired by [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
