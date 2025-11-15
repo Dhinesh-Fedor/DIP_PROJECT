@@ -1,5 +1,5 @@
 # A Lightweight Hybrid CNN-Transformer Model for Smoke Removal in Laparoscopic	Surgery Images 
-Mohammed Ashlab N - 23MIA1088| Dhinesh Kumar M - 23MIA1102 | Srishreyan S - 23MIA1081
+Mohammed Ashlab N - 23MIA1088 | Dhinesh Kumar M - 23MIA1102 | Srishreyan S - 23MIA1081
 
 # Abstract
 
