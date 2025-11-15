@@ -59,5 +59,8 @@ python test.py --dataroot ./datasets/composite --name pfan
 ## Representative Results
 ![representive_results](2.png)
 
+![WhatsApp Image 2025-11-13 at 22 59 44_978d8ef5](https://github.com/user-attachments/assets/dee871ef-e922-4abd-87a1-4cc667aff4fb)
+
+
 ## Acknowledgments
 Our code is inspired by [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
